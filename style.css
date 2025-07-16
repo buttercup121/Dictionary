@@ -17,9 +17,7 @@ body{
 .container{
     width: 600px;
     height: 500px;
-    /* background-color: aquamarine; */
     background-color: #e0aaff;
-    border-radius: 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -45,7 +43,6 @@ input::placeholder{
     width: 500px;
     height: 80px;
     font-size: 15px;
-    /* background-color: rgb(4, 22, 39); */
     color: black;
     text-align: center;
     font-weight: bold;
@@ -73,13 +70,13 @@ input::placeholder{
         font-size: 28px;
     }
     .container{
-         width: 400px;
+         width: 350px;
     height: 300px;
-     border: 10px dashed #3c096c;
+     border: 8px dashed #3c096c;
 
     }
     .container:hover{
-      border: 12px dashed #3c096c;
+      border: 10px dashed #3c096c;
      
 }
 
@@ -89,8 +86,8 @@ input::placeholder{
     font-size: 12px;
     }
     .meaning{
-     width: 350px;
-    height: 60px;
+     width: 300px;
+    height: 80px;
     font-size: 12px;
     }
     input{
